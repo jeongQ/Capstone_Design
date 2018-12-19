@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "C:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\qw323\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dC:/Users/qw323/AndroidStudioProjects/SDS/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "native-lib-release-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\qw323\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dC:/Users/qw323/AndroidStudioProjects/SDS/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/qw323/AndroidStudioProjects/SDS/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libnative-lib.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "C:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\src\\main\\jni\\main.cpp",
+          "flags": "-gcc-toolchain C:/Users/qw323/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi23 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I\"C:/OpenCV-android-sdk/sdk/native/jni/include/opencv\" -I\"C:/OpenCV-android-sdk/sdk/native/jni/include\" -IC:/Users/qw323/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include -IC:/Users/qw323/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -IC:/Users/qw323/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward -IC:/Users/qw323/AndroidStudioProjects/SDS/app/src/main/jni -frtti -fexceptions -DANDROID -fPIC -DANDROID -fsigned-char -D__ANDROID_API__\u003d23 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot C:/Users/qw323/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot -isystem C:/Users/qw323/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        }
+      ],
+      "output": "C:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "C:\\Users\\qw323\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

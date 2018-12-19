@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "C:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\qw323\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dC:/Users/qw323/AndroidStudioProjects/SDS/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "native-lib-release-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\qw323\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dC:/Users/qw323/AndroidStudioProjects/SDS/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/qw323/AndroidStudioProjects/SDS/app/build/intermediates/ndkBuild/release/obj/local/x86/libnative-lib.so",
+      "abi": "x86",
+      "output": "C:\\Users\\qw323\\AndroidStudioProjects\\SDS\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libnative-lib.so"
+    }
+  }
+}
